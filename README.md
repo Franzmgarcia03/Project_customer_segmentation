@@ -20,6 +20,23 @@ So we want to make groups of people based on some of the characteristics provide
 
 To do that, the code was implementing using libraries such as: pandas, scikit-learn, numpy and matplotlib
 
-This model use the K-Means algorithm with 3 clusters, and provide distributions of customers based on their age, income and education:
+This model use the K-Means algorithm with 3 clusters, and provide distributions of customers based on their age, income and education
+
+###  Distribution of customers based on their age and income
+![Age and Income](/Age_Inc.png)
+
+We can see here three different types of customers:
+
+- Young age and low income (Purple)
+- Middle aged and medium income (Yellow)
+- Old aged and high income (Blue)
+
+###  Distribution of customers based on their age and education
+![Age and Education](/Age_Edu.png)
+
+Here is a little bit more difficult to find a real pattern for each customer. That's because the education and age have not necessarily a linear relation to find patterns in between these attributes of the customers
+
+### Distribution of customers based on their education and income
+![Education and Income](/Edu_Inc.png)
 
 
